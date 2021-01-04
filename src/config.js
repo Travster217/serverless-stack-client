@@ -1,6 +1,8 @@
 const config = {
+  STRIPE_KEY: "pk_test_E7OYatBDLlr5Q8mE95tAO35K",
+  MAX_ATTACHMENT_SIZE: 5000000,
   s3: {
-    REGION: "us-east-2",
+    REGION: "us-east-1",
     BUCKET: "notes-app-upload-travster217",
   },
   apiGateway: {
